@@ -45,27 +45,41 @@ var locations = [
     {
         lat: 51.482007696890044, lng: -0.14478564417826512, name: "Battersea Power Station",
         description: "<h2>Films:</h2>" + "<ul>" + "<li>The Dark Knight</li>" + "<li>The King's Speech</li>" + "<li>Children of Men</li>" +
-        "<li>Fast & Furious 6</li>" + "<li>The Imaginarium of Doctor Parnassus</li>" + "<li>Full Metal Jacket</li>" + "<li>The Meaning of Life</li>" + "</ul>"
+            "<li>Fast & Furious 6</li>" + "<li>The Imaginarium of Doctor Parnassus</li>" + "<li>Full Metal Jacket</li>" + "<li>The Meaning of Life</li>" + "</ul>"
     },
-    { lat: 51.50261026593121, lng: -0.11327545767130606, name: "Waterloo Station",
-        description: "<h2>Films:</h2>" + "<ul>" + "<li>Juliet, Naked</li>" + "<li>Waterloo Bridge</li>" + "</ul>" + "<li>The Bourne Ultimatum</li>"},
-    { lat: 51.50825989196561, lng: -0.07632264417826512, name: "Tower Of London",
-        description: "<h2>Films:</h2>" + "<ul>" + "<li>Muppets Most Wanted</li>" + "<li>Spider-Man: Far From Home</li>"},
-    { lat: 51.50261026593121, lng: -0.11327545767130606, name: "Trafalgar Square",
-        description: "<h2>Films:</h2>" + "<ul>" + "<li>101 Dalmatians</li>" + "<li>Captain America: The First Avenger</li>" + 
-        "<li>Get Him to the Greek</li>" + "<li>28 Weeks Later</li>" + "<li>Wonder Woman</li>" + "<li>Edge of Tomorrow</li>" +
-        "<li>Children of Men</li>" + "<li>V for Vendetta</li>"},
-    { lat: 51.508473173079956, lng: -0.1259032010920856, name: "Charing Cross Underground Station",
+    {
+        lat: 51.50261026593121, lng: -0.11327545767130606, name: "Waterloo Station",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Juliet, Naked</li>" + "<li>Waterloo Bridge</li>" + "</ul>" + "<li>The Bourne Ultimatum</li>"
+    },
+    {
+        lat: 51.50825989196561, lng: -0.07632264417826512, name: "Tower Of London",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Muppets Most Wanted</li>" + "<li>Spider-Man: Far From Home</li>"
+    },
+    {
+        lat: 51.50261026593121, lng: -0.11327545767130606, name: "Trafalgar Square",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>101 Dalmatians</li>" + "<li>Captain America: The First Avenger</li>" +
+            "<li>Get Him to the Greek</li>" + "<li>28 Weeks Later</li>" + "<li>Wonder Woman</li>" + "<li>Edge of Tomorrow</li>" +
+            "<li>Children of Men</li>" + "<li>V for Vendetta</li>"
+    },
+    {
+        lat: 51.508473173079956, lng: -0.1259032010920856, name: "Charing Cross Underground Station",
         description: "<h2>Films:</h2>" + "<ul>" + "<li>Skyfall</li>" + "<li>28 Weeks Later</li>" + "<li>Thor: The Dark World</li>" +
-        "<li>The Fourth Protocol</li>"},
-    { lat: 51.505484709568115, lng: -0.08988903708375483, name: "Borough Market",
+            "<li>The Fourth Protocol</li>"
+    },
+    {
+        lat: 51.505484709568115, lng: -0.08988903708375483, name: "Borough Market",
         description: "<h2>Films:</h2>" + "<ul>" + "<li>Bridget Jones's Diary</li>" + "<li>Bridget Jones's Baby</li>" + "<li>The Layover</li>" +
-        "<li>Closed Circuit</li>" + "<li>The Imaginarium of Doctor Parnassus</li>"},
-    { lat: 51.51878791480703, lng: -0.08145338050436084, name: "Liverpool Street Station",
-        description: "<h2>Films:</h2>" + "<ul>" + "<li>Bridget Jones's Diary (Deleted Scene)</li>" + "<li>Mission: Impossible</li>"},
-    { lat: 56.87624846019171, lng: -5.431778865554804, name: "Glenfinnan Viaductduct",
-        description: "<h2>Films:</h2>" + "<ul>" +  "<li>Harry Potter and the Chamber of Secrets</li>" + "<li>Harry Potter and the Prisoner of Azkaban</li>" +
-        "<li>Harry Potter and the Goblet of Fire</li>"},
+            "<li>Closed Circuit</li>" + "<li>The Imaginarium of Doctor Parnassus</li>"
+    },
+    {
+        lat: 51.51878791480703, lng: -0.08145338050436084, name: "Liverpool Street Station",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Bridget Jones's Diary (Deleted Scene)</li>" + "<li>Mission: Impossible</li>"
+    },
+    {
+        lat: 56.87624846019171, lng: -5.431778865554804, name: "Glenfinnan Viaductduct",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Harry Potter and the Chamber of Secrets</li>" + "<li>Harry Potter and the Prisoner of Azkaban</li>" +
+            "<li>Harry Potter and the Goblet of Fire</li>"
+    },
 ]
 function initMap() {
 
@@ -76,8 +90,9 @@ function initMap() {
             lng: -0.11924067120564702,
         }
     });
-    const contentString 
-        '<h1>' + '</h1>'
+
+    const contentString =
+    '<h1>' + '</h1>'
 
 
 
