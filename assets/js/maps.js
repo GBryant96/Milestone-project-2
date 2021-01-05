@@ -92,7 +92,7 @@ function initMap() {
     });
 
     const contentString =
-    '<h1>' + '</h1>'
+    '<div>' + '</div>'
 
 
 
@@ -115,7 +115,7 @@ function initMap() {
             infowindow.open(map, marker);
         });
     }
-
+    
 
 
     // ITERATE ALL LOCATIONS. Pass every location to placeMarker
