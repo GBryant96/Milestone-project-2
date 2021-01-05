@@ -29,7 +29,7 @@ var locations = [
             "<li>Gulliver's Travels</li>" + "<li>Sherlock Holmes</li>" + "<li>Sherlock Holmes: A Game of Shadows</li>" + "<li>Patriot Games</li>" +
             "<li>The King's Speech</li>" + "<li>The Wolfman</li>" + "<li>Lara Croft: Tomb Raider</li>" + "<li>Pirates of the Caribbean: On Stranger Tides</li>" +
             "<li>The Mummy Returns</li>" + "<li>Muppets Most Wanted</li>" + "<li>Victor Frankenstein</li>" + "<li>Cinderella</li>" +
-            "<li>Les Misérables</li></ul>"
+            "<li>Les Miserables</li></ul>"
     },
     {
         lat: 51.53104284649297, lng: -0.12582972881207333, name: "St Pancras International/Kings Cross Station",
@@ -111,7 +111,7 @@ function initMap() {
         });
         google.maps.event.addListener(marker, 'click', function () {
             infowindow.close(); // Close previously opened infowindow
-            infowindow.setContent(`<h1 class=location id="infowindow">${loc.name}</h1 >` + `<div>${loc.description}</div>`);
+            infowindow.setContent(`<h1 class=location id="infowindow">${loc.name} </h1 >` + `<a href="https://www.google.com/search?q= ${loc.name}&tbm=plcs" target="_blank">Find On Google</a>` + `<div>${loc.description}</div>`);
             infowindow.open(map, marker);
         });
     }
