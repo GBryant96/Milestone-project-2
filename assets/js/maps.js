@@ -111,7 +111,7 @@ function initMap() {
         });
         google.maps.event.addListener(marker, 'click', function () {
             infowindow.close(); // Close previously opened infowindow
-            infowindow.setContent(`<h1 class=location id="infowindow">${loc.name} </h1 >` + `<a href="https://www.google.com/search?q= ${loc.name}&tbm=plcs" target="_blank">Find On Google</a>` + `<div>${loc.description}</div>`);
+            infowindow.setContent(`<h1 class=location id="infowindow">${loc.name} </h1 >` + `<a href="https://www.google.com/search?q= ${loc.name}" target="_blank">Find On Google</a>` + `<div>${loc.description}</div>`);
             infowindow.open(map, marker);
         });
     }
