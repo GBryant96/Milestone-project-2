@@ -82,7 +82,7 @@ var locations = [
     },
 ]
 function initMap() {
-
+    
     var map = new google.maps.Map(document.getElementById("map"), {
         zoom: 8,
         center: {
@@ -96,31 +96,59 @@ function initMap() {
 
 
 
-    const infowindow = new google.maps.InfoWindow({
+    var infowindow = new google.maps.InfoWindow({
         content: contentString,
     });
 
-
-
-
-
-    function placeMarker(loc) {
+      function placeMarker(loc) {
         var marker = new google.maps.Marker({
             position: new google.maps.LatLng(loc.lat, loc.lng),
             map: map
         });
         google.maps.event.addListener(marker, 'click', function () {
             infowindow.close(); // Close previously opened infowindow
-            infowindow.setContent(`<h1 class=location id="infowindow">${loc.name} </h1 >` + `<a href="https://www.google.com/search?q= ${loc.name}" target="_blank">Find On Google</a>` + `<div>${loc.description}</div>`);
+            infowindow.setContent(`<h2 class=location id="infowindow">${loc.name} </h2 >` + `<a href="https://www.google.com/search?q= ${loc.description + 'ul' + 'li'} "target="_blank">Find On Google</a>` + `<div>${loc.description}</div>`);
             infowindow.open(map, marker);
         });
     }
     
-
-
-    // ITERATE ALL LOCATIONS. Pass every location to placeMarker
     locations.forEach(placeMarker);
 
+    var input = document.getElementById('searchInput');
+    map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
 
+    var autocomplete = new google.maps.places.Autocomplete(input);
+    autocomplete.bindTo('bounds', map);
 
-}
+    var marker = new google.maps.Marker({
+        map: map,
+        anchorPoint: new google.maps.Point(0, -29)
+    });
+
+    autocomplete.addListener('place_changed', function() {
+        infowindow.close();
+        marker.setVisible(false);
+        var place = autocomplete.getPlace();
+        if (!place.geometry) {
+            window.alert("Autocomplete's returned place contains no geometry");
+            return;
+        }
+
+        if (place.geometry.viewport) {
+            map.fitBounds(place.geometry.viewport);
+        } else {
+            map.setCenter(place.geometry.location);
+            map.setZoom(17);
+        }
+        marker.setIcon(({
+            url: place.icon,
+            size: new google.maps.Size(71, 71),
+            origin: new google.maps.Point(0, 0),
+            anchor: new google.maps.Point(17, 34),
+            scaledSize: new google.maps.Size(35, 35)
+        }));
+        marker.setPosition(place.geometry.location);
+        marker.setVisible(true);
+    
+    })}
+     
