@@ -1,13 +1,9 @@
+@media screen and (min-width: 600px){
+        h3{ font-size: 24px}
+        h5{ font-size: 18px;}
+}
 
-
-@media screen and (max-width: 600px){
-        h3{ font-size: smaller;
-        }
-        h5{ font-size: smaller;}
-    }
-
-
-img {
+    img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -26,7 +22,7 @@ img {
 body{
             background-image: url("../images/map.jpg");
             background-size: 50%;
-            height: 85%; 
+            
             }
 
       
@@ -50,7 +46,7 @@ footer{position: fixed;
     width: 100%; 
     background-color: #444444;
     color: seashell;
-    height: 15%;
+    
 
 }
 
