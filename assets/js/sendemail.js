@@ -7,10 +7,15 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS", response);
+            alert('Thank you for messaging. Your message has been sucessfully sent!');
         },
         function(error) {
             console.log("FAILED", error);
+            alert("Failed. Please check your connection and try again")
         }
-    );
+    )
+    
     return false;  // To block from loading a new page
 }
+
+
