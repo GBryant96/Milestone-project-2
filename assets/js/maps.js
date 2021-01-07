@@ -106,8 +106,8 @@ function initMap() {
             map: map
         });
         google.maps.event.addListener(marker, 'click', function () {
-            infowindow.close(); // Close previously opened infowindow
-            infowindow.setContent(`<h2 class=location id="infowindow">${loc.name} </h2 >` + `<a href="https://www.google.com/search?q= ${loc.description + 'ul' + 'li'} "target="_blank">Find On Google</a>` + `<div>${loc.description}</div>`);
+            infowindow.close(); 
+            infowindow.setContent(`<h2 class=location id="infowindow">${loc.name} </h2 >` + `<a href="https://www.google.com/search?q= ${loc.name} " target="_blank">Find On Google</a>` + `<div>${loc.description}</div>`);
             infowindow.open(map, marker);
         });
     }
