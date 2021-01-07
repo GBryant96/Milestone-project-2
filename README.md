@@ -96,7 +96,7 @@ As the developer of this application, my goals are:
    * Try to submit true location
    * Try submit location using autofill
 
-
+<img src= "assets/images/autofill.jpg">
 
 During my testing of the search bar I learnt that without without selecting a result from the autofill, an alert box pops up with the message 'Autocomplete's retuned place contains no geometry' as yet, I am yet to diagnose the cause. So can only find a location using the autofill.
 
@@ -105,9 +105,19 @@ During my testing of the search bar I learnt that without without selecting a re
 3. Contact Form
    * Navigate to the contact page using the link on the main page
    * Try to submit empty forms in every form to verify relevant error message appears
+   <img src= "assets/images/empty.png">
    * Try to submit empty forms in one or two fields to verify relevant error message appears
+   <img src= "assets/images/obi wan.png">
+   <img src= "assets/images/hellothere.png">
    * Try to supply an invalid email and verify relevant error message appears
+   <img src= "assets/images/Success.png">
+    Currently the email box cannot differentiate between a real and false email address.
+    <img src= "assets/images/invalidemail.png">
+    If I don't use an @, the form recognises that the input text cannot be an email.
    * Submit with completed, valid forms and verify a success message appears
+   <img src= "assets/images/true.png">
+   * Attempt to submit a form while offline and verify error message appears
+   <img src= "assets/images/Failed.png">
 
 
 
@@ -119,9 +129,15 @@ During my testing of the search bar I learnt that without without selecting a re
 
 Within the browser the map fills up the majority of the window, and scales to window size. However the contact form doesn't scale to the height of the window, but does scale to the width.
 
+<img src= "assets/images/desktop.jpg">
+
 #### Mobile
 
+<img src= "assets/images/mobiledisplay2.png">
+
 On mobile devices, the map still scales to any viewport size. On some devices the footer on the contact page covers the bottom of the contact form. Through trial and testing, it now fits properly on every device I could test it on. The page displays better landscape over portrait.
+
+<img src= "assets/images/mobiledisplay.png">
 
 #### Tablet
 
@@ -162,5 +178,13 @@ I used GitHub Pages to deploy my project by going into the settings of my reposi
 
 ## Wireframes
 
+<img src= "assets/wireframes/contact.html.png">
+<img src= "assets/wireframes/contact.html - Tablet.png">
+<img src= "assets/wireframes/contact.html - Mobile.png">
+<img src= "assets/wireframes/index.html.png">
+<img src= "assets/wireframes/index.html - Tablet.png">
+<img src= "assets/wireframes/index.html - Mobile.png">
 
 
+
+The key difference between my intital wireframes and the deployed project is the tab alongside the map. During development it became clear that information windows linked to the pins on the map was a more efficient way to display the information, and it left more display space for the map itself, which aided the mobile design. 
