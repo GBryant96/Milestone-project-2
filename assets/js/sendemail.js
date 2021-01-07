@@ -11,11 +11,9 @@ function sendMail(contactForm) {
         },
         function(error) {
             console.log("FAILED", error);
-            alert("Failed. Please check your connection and try again")
+            alert("Failed. Please check your connection and try again");
         }
-    )
+    );
     
     return false;  // To block from loading a new page
 }
-
-
