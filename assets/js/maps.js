@@ -49,37 +49,113 @@ var locations = [
     },
     {
         lat: 51.50261026593121, lng: -0.11327545767130606, name: "Waterloo Station",
-        description: "<h2>Films:</h2>" + "<ul>" + "<li>Juliet, Naked</li>" + "<li>Waterloo Bridge</li>" + "</ul>" + "<li>The Bourne Ultimatum</li>"
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Juliet, Naked</li>" + "<li>Waterloo Bridge</li>" + "</ul>" + "<li>The Bourne Ultimatum</li>" + "</ul>"
     },
     {
         lat: 51.50825989196561, lng: -0.07632264417826512, name: "Tower Of London",
-        description: "<h2>Films:</h2>" + "<ul>" + "<li>Muppets Most Wanted</li>" + "<li>Spider-Man: Far From Home</li>"
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Muppets Most Wanted</li>" + "<li>Spider-Man: Far From Home</li>" + "</ul>"
     },
     {
         lat: 51.50261026593121, lng: -0.11327545767130606, name: "Trafalgar Square",
         description: "<h2>Films:</h2>" + "<ul>" + "<li>101 Dalmatians</li>" + "<li>Captain America: The First Avenger</li>" +
             "<li>Get Him to the Greek</li>" + "<li>28 Weeks Later</li>" + "<li>Wonder Woman</li>" + "<li>Edge of Tomorrow</li>" +
-            "<li>Children of Men</li>" + "<li>V for Vendetta</li>"
+            "<li>Children of Men</li>" + "<li>V for Vendetta</li>" + "</ul>"
     },
     {
         lat: 51.508473173079956, lng: -0.1259032010920856, name: "Charing Cross Underground Station",
         description: "<h2>Films:</h2>" + "<ul>" + "<li>Skyfall</li>" + "<li>28 Weeks Later</li>" + "<li>Thor: The Dark World</li>" +
-            "<li>The Fourth Protocol</li>"
+            "<li>The Fourth Protocol</li>" + "</ul>"
     },
     {
         lat: 51.505484709568115, lng: -0.08988903708375483, name: "Borough Market",
         description: "<h2>Films:</h2>" + "<ul>" + "<li>Bridget Jones's Diary</li>" + "<li>Bridget Jones's Baby</li>" + "<li>The Layover</li>" +
-            "<li>Closed Circuit</li>" + "<li>The Imaginarium of Doctor Parnassus</li>"
+            "<li>Closed Circuit</li>" + "<li>The Imaginarium of Doctor Parnassus</li>" + "</ul>"
     },
     {
         lat: 51.51878791480703, lng: -0.08145338050436084, name: "Liverpool Street Station",
-        description: "<h2>Films:</h2>" + "<ul>" + "<li>Bridget Jones's Diary (Deleted Scene)</li>" + "<li>Mission: Impossible</li>"
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Bridget Jones's Diary (Deleted Scene)</li>" + "<li>Mission: Impossible</li>" + "</ul>"
     },
     {
         lat: 56.87624846019171, lng: -5.431778865554804, name: "Glenfinnan Viaductduct",
         description: "<h2>Films:</h2>" + "<ul>" + "<li>Harry Potter and the Chamber of Secrets</li>" + "<li>Harry Potter and the Prisoner of Azkaban</li>" +
-            "<li>Harry Potter and the Goblet of Fire</li>"
+            "<li>Harry Potter and the Goblet of Fire</li>" + "</ul>"
     },
+    {  lat: 51.408640085075646, lng: -0.7214360992570291, name: "12 Picket Post Drive",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Harry Potter and th philosophers stone</li>" + "</ul>"
+    },
+    {  lat:51.512869, lng:  -0.115646, name: "Australia House",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Harry Potter and the Philosopher's Stone</li>" + "<li>X-Men: First Class</li>" + "<li>Wonder Woman</li>" + 
+        "<li>Sherlock Holmes: A Game of Shadows</li>" + "<li>The High Commissioner</li>" + "</ul>"
+    }, {  lat:54.400476, lng:  -0.712035, name: "Goathland Railway Station",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Harry Potter and the Philosopher's Stone</li>" + "</ul>"
+    }, {  lat: 51.750240,  lng: -1.255816, name: "Christ Church College",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Harry Potter and the Philosopher's Stone</li>" + "<li>Harry Potter and the Chamber of Secrets</li>" +
+        "<li>The Golden Compass</li>" + "</ul>"
+    }, {  lat: 51.867386,  lng: -2.246683, name: "Gloucester Cathedral",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Harry Potter and the Philosopher's Stone</li>" + "<li>Harry Potter and the Chamber of Secrets</li>" + 
+        "<li>Harry Potter and the Half-Blood Prince</li>" + "</ul>"
+    }, {  lat: 54.773465, lng: -1.576436, name: "Durham Cathedral",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Harry Potter and the Philosopher's Stone</li>" + "<li>Harry Potter and the Chamber of Secrets</li>" + 
+        "<li>Elizabeth</li>" + "<li>Avengers: Endgame</li>"+ "</ul>"
+    }, {  lat: 51.414719, lng: -2.117164, name: "Lacock Abbey",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Harry Potter and the Philosopher's Stone</li>" + "<li>Harry Potter and the Chamber of Secrets</li>" + 
+        "<li>The Other Boleyn Girl</li>" + "</ul>" 
+    }, {  lat: 51.542478, lng: -0.543652, name: "Black Park Country Park",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Captain America: The First Avenger</li>" + "<li>Harry Potter and the Philosopher's Stone</li>" + 
+        "<li>Harry Potter and the Chamber of Secrets</li>" + "<li>Harry Potter and the Goblet of Fire</li>" + "<li>Harry Potter and the Order of the Phoenix</li>" + 
+        "<li>Eden Lake</li>" + "<li>X-Men: First Class</li>" + "<li>Dark Shadows</li>" + "<li>The Wolfman</li>" + "<li>The Black Knight</li>" + "<li>Hawk the Slayer</li>" +
+        "<li>Goldfinger</li>" + "<li>The Charge of the Light Brigade</li>" + "<li>Casino Royale</li>" + "<li>A Little Chaos</li>" + "<li>Atonement</li>" + 
+        "<li>Carry on at Your Convenience</li>" + "<li>Blakes 7</li>" + "<li>The Blood on Satan's Claw</li>" + "<li>Cinderella</li>" + "<li>Fahrenheit 451</li>" + 
+        "<li>Treasure Island</li>" + "<li>Stardust</li>" + "<li>Willow</li>" + "<li>Octopussy</li>" + "</ul>"
+    }, {  lat: 51.535005, lng: -0.154141, name: "London Zoo", 
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Harry Potter and the Philosopher's Stone</li>" + "<li>About a Boy</li>" + "<li>The Fallen Idol</li>" + 
+        "<li>Wimbledon</li>" + "<li>Arabesque</li>" + "<li>An American Werewolf in London</li>" + "<li>Kiss Kiss (Bang Bang)</li>" + "</ul>"
+    }, {  lat: 51.754039, lng: -1.254625, name: "Divinity School & Duke Humfrey's Library",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Harry Potter and the Philosopher's Stone</li>" + "<li>Harry Potter and the Chamber of Secrets</li>" + 
+        "<li>Harry Potter and the Goblet of Fire</li>" + "<li>Harry Potter and the Half-Blood Prince</li>" + "<li>The Golden Compass</li>" + "<li>The Favourite</li>" +
+        "</ul>"
+    }, {  lat: 51.573311, lng: -0.337457, name: "Old Schools (Harrow School)",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Harry Potter and the Philosopher's Stone</li>" + "</ul>"
+    }, {  lat: 55.415752, lng:  -1.706078, name: "Alnwick Castle",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Harry Potter and the Philosopher's Stone</li>" + "<li>Harry Potter and the Chamber of Secrets</li>" + 
+        "<li>Robin Hood: Prince of Thieves</li>" + "<li>Robin Hood</li>" + "<li>Elizabeth</li>" + "</ul>"
+    },
+     {  lat: 51.510952, lng: -0.140034, name: "Huntsman & Sons",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Kingsman: The Secret Service</li>" + "<li>Kingsman: The Golden Circle</li>" + "</ul>"
+    },
+     {  lat: 51.186902, lng: 0.113892, name: "Hever Castle",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Inkheart</li>" + "<li>The Princess Bride</li>" + "<li>Star Wars: Episode I - The Phantom Menace (deleted scene)</li>" +
+        "<li>Lady Jane</li>" + "</ul>"
+    }, {  lat: 51.669643, lng: -0.444301, name: "Whippendell Woods",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Star Wars: Episode I - The Phantom Menace</li>" + "</ul>"
+    }, {  lat: 54.577047,  lng: -3.146795, name: "Derwent Water",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Star Wars: The Force Awakens</li>" + "</ul>"
+    }, {  lat: 51.779444, lng: -2.614660, name: "Puzzlewood",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Star Wars: The Force Awakens</li>"
+    }, {  lat: 51.378863, lng: -1.280865, name: "RAF Greenham Common",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Star Wars: The Force Awakens</li>"
+    }, {  lat: 51.503496, lng: -0.018700, name: "Canary Wharf Underground Station",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>28 Weeks Later</li>" + "<li>28 Days Later…</li>" + "<li>Love Actually</li>" + 
+        "<li>Rogue One: A Star Wars Story</li>" + "<li>The Constant Gardener</li>" + "<li>Billy Elliot</li>" + "<li>Men in Black: International</li>" + "</ul>"
+    }, {  lat: 50.818040, lng: -1.328120, name: "Fawley Power Station",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Mission: Impossible - Rogue Nation</li>" + "<li>Solo: A Star Wars Story</li>" + "</ul>"
+    }, {  lat: 51.397099823909784, lng: 0.5289589290086215, name: "The Historic Dockyard Chatham",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Sherlock Holmes: A Game of Shadows</li>" + "<li>Amazing Grace</li>" + 
+        "<li>Mr. Turner</li>" + "<li>Victor Frankenstein</li>" + "<li>Les Misérables</li>" + "<li>The World Is Not Enough</li>" + 
+        "<li>Vanity Fair</li>" + "<li>Oliver Twist</li>" + "<li>The Man from U.N.C.L.E.</li>" + "</ul>"
+    }, {  lat: 51.389938, lng: 0.501441, name: "Rochester Castle",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Hamlet</li>" + "<li>Henry VIII</li>" + "</ul>"
+    }, {  lat: 51.452794, lng: 0.374768, name: "Tilbury Fort",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Wonder Woman</li>" + "</ul>"
+    }, {  lat: 51.464654, lng: 0.257641, name: "Dartford Tunnel",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Harry Potter and the Deathly Hallows: Part 1</li>" + "</ul>"
+    }, {  lat: 50.38547885651208, lng: -4.227210292044514, name: "National Trust - Antony",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Alice in Wonderland</li>" + "</ul>"
+    }, {  lat: 50.57147984333438, lng: -2.452573504603966, name: "Portland Harbour",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>The Boat That Rocked</li>" + "</ul>"
+    }, {  lat: 51.208184433619536, lng:  -2.650220635544316, name: "St Cuthbert's Church",
+        description: "<h2>Films:</h2>" + "<ul>" + "<li>Hot Fuzz</li>" + "</ul>"
+    }, 
 ]
 function initMap() {
     
